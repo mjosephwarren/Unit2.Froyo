@@ -25,8 +25,8 @@ function countFlavors() {
   
   // Split the flavors into an array
   function splitFlavorsArray(flavorInput) {
-    var flavorsArray = flavorInput.split(",");
-    for (var i = 0; i < flavorsArray.length; i++) {
+    let flavorsArray = flavorInput.split(",");
+    for (let i = 0; i < flavorsArray.length; i++) {
       flavorsArray[i] = flavorsArray[i].trim();
     }
     return flavorsArray;
